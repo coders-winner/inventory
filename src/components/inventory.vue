@@ -45,7 +45,6 @@ function upModal(value: object) {
 <style lang="scss">
 .list-group {
   display: flex;
-
   flex-wrap: wrap;
 }
 .my-box {

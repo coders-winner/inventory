@@ -32,15 +32,6 @@ watch(picked, () => {
   color: #222;
   --my-bg: #f5f5f4 !important ;
 }
-.my-close {
-  margin: 8px 14px;
-  transition-duration: 0.3s;
-  &:hover {
-    color: #fa7272;
-    cursor: pointer;
-    transform: scale(110%);
-  }
-}
 .my-but2 {
   width: 180px;
 }
