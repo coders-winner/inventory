@@ -1,4 +1,4 @@
-## [DEMO](https://coders-winner.github.io/inventory/)
+## Click to go to the [DEMO](https://coders-winner.github.io/inventory/)
 
 # inventory
 
