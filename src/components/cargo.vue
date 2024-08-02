@@ -1,12 +1,27 @@
 <template>
-  <div class="my-cont4">
-    <div class="my-item"></div>
-    <div class="my-item2"></div>
-    <div class="my-item-col">1</div>
+  <div v-if="list.col > 0" class="my-cont4">
+    <div>
+      <div
+        class="my-item"
+        v-bind:style="`background-color: ${list.color}`"
+      ></div>
+      <div
+        class="my-item2"
+        v-bind:style="`background-color: ${list.color}`"
+      ></div>
+      <div class="my-item-col">{{ list.col }}</div>
+    </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps({
+  list: {
+    type: Object,
+    required: true,
+  },
+});
+</script>
 
 <style setup lang="scss">
 .my-item {
@@ -16,10 +31,10 @@
   width: 80px;
   height: 80px;
   background-color: #93bb77;
-  // box-shadow: -50px 50px 0px rgba(60, 154, 143, 1);
 }
 .my-item2 {
-  filter: blur(1px);
+  filter: blur(2px) saturate(50%) contrast(70%) brightness(120%);
+  opacity: 0.9;
   z-index: 1;
   width: 80px;
   height: 80px;
@@ -40,5 +55,6 @@
 }
 .my-cont4 {
   position: relative;
+  cursor: pointer;
 }
 </style>
