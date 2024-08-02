@@ -80,7 +80,7 @@ function cancel() {
 .my-but {
   background-color: white !important;
   border: 2px solid #fa7272;
-  color: black;
+  color: #222;
   transition-duration: 0.3s;
   &:hover {
     background-color: #ffecec !important;
@@ -111,7 +111,7 @@ function cancel() {
   text-align: -webkit-center;
   border: 1px solid;
   border-radius: 16px;
-  background-color: #222222f0;
+  background-color: var(--my-bg);
   justify-items: center;
   padding: 10px 10px 20px 10px;
   margin: 20px;
@@ -123,6 +123,7 @@ function cancel() {
 .my-clos {
   position: absolute;
   right: 0;
+  top: -3px;
   z-index: 99;
   font-size: x-large;
   margin: 8px 14px;

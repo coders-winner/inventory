@@ -1,10 +1,12 @@
 @import "./base.css";
 
+:root {
+  --my-bg: #222;
+}
+
 #app {
-  max-width: 1920px;
   width: 100%;
   text-align: -webkit-center;
-  // text-align: center;
 }
 
 @keyframes gradient-animation {
@@ -56,29 +58,8 @@ input {
   padding: 10px 20px;
   margin: 4px;
   border-radius: 4px;
-  background-color: #222;
+  background-color: var(--my-bg);
   color: white;
   border: 1px solid #999;
   width: 84%;
-}
-// a,
-// .green {
-//   text-decoration: none;
-//   color: hsla(160, 100%, 37%, 1);
-//   transition: 0.4s;
-//   padding: 3px;
-// }
-
-@media (hover: hover) {
-  // a:hover {
-  //   background-color: hsla(160, 100%, 37%, 0.2);
-  // }
-}
-
-@media (min-width: 1024px) {
-  // #app {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   padding: 0 2rem;
-  // }
 }

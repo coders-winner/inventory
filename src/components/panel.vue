@@ -38,7 +38,7 @@
   text-align: -webkit-center;
   border: 1px solid;
   border-radius: 16px;
-  background-color: #222;
+  background-color: var(--my-bg);
   justify-items: center;
   padding-bottom: 20px;
   margin: 20px;

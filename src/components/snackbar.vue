@@ -27,7 +27,7 @@
   justify-content: space-between;
   border: 1px solid;
   border-radius: 16px;
-  background-color: #222;
+  background-color: var(--my-bg);
   text-align: start;
 
   margin: 20px;

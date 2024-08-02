@@ -65,7 +65,7 @@ function upModal(value: object) {
   flex-wrap: wrap;
   border: 1px solid;
   border-radius: 16px;
-  background-color: #222;
+  background-color: var(--my-bg);
   margin: 20px;
 }
 </style>
