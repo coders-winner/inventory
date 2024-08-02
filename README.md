@@ -31,3 +31,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### add vue-draggable-next
+
+https://github.com/anish2690/vue-draggable-next
